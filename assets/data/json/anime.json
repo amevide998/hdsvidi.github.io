@@ -1,0 +1,55 @@
+{
+    "anime": [
+        {
+        "name" : "Monkey D Luffy",
+        "skill" : "Devil fruit - Hito-hito no mi model Nika",
+        "img" : "https://awsimages.detik.net.id/community/media/visual/2022/04/01/manga-one-piece_43.webp"
+        },
+        {
+            "name" : "Roronoa Zoro",
+            "skill" : "Three Sword Style",
+            "img" : "https://assets.pikiran-rakyat.com/crop/60x96:993x695/x/photo/2022/04/17/3696003994.jpg"
+        },
+        {
+        "name" : "Nico Robin",
+        "skill" : "Archeologist",
+        "img" : "https://assets.promediateknologi.com/crop/0x0:0x0/x/photo/2022/06/14/441229888.jpg"
+        },
+        {
+            "name" : "Vinsmoke Sanji",
+            "skill" : "Kick Style Fighter",
+            "img" : "https://media-assets-ggwp.s3.ap-southeast-1.amazonaws.com/2021/01/Spesial-Shokugeki-no-Sanji-4.jpg"
+        },
+        {
+        "name" : "Chopper",
+        "skill" : "Doctor",
+        "img" : "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/05/30/1469191165.jpg"
+        },
+        {
+            "name" : "Nami",
+            "skill" : "Navigator",
+            "img" : "https://www.greenscene.co.id/wp-content/uploads/2021/09/Nami-696x497.jpg"
+        },
+        {
+        "name" : "Usopp",
+        "skill" : "Sniper",
+        "img" : "https://media-assets-ggwp.s3.ap-southeast-1.amazonaws.com/2020/12/Julukan-Keren-Usopp-4.jpg"
+        },
+        {
+            "name" : "Franky",
+            "skill" : "Shipwright",
+            "img" : "https://cdn-brilio-net.akamaized.net/news/2021/10/15/215300/1579624-9-rahasia-manusia-robot-franky-one-piece.jpg"
+        },
+        {
+        "name" : "Soul King Brook",
+        "skill" : "Musicion",
+        "img" : "https://duniamasa.com/wp-content/uploads/2022/01/brook.jpg"
+        },
+        {
+            "name" : "Jinbe",
+            "skill" : "Fishman Karate",
+            "img" : "https://www.greenscene.co.id/wp-content/uploads/2020/02/Jinbe.jpg"
+        }
+        
+    ]
+}

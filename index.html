@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>One Piece</title>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="loadAnime()">
+    <header>
+        <div class="navbar-logo">
+            <a href="./index.html">New World</a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="./index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#text-title"><i class="fa-solid fa-people-group"></i></i> About Us</a></li>
+                <li><a href="#contact-us"><i class="fa-solid fa-envelope"></i> Contact Us</a></li>
+            </ul>
+        </div>
+        
+    </header>
+
+    <main>
+        <section>
+            <div id="content">
+                <h1 id="welcome-text">Welcome<span>!</span></h1>
+                <p>To The New World</p>
+            </div>
+        </section>
+        <h1 class="sub-text"> Our Members</h1>
+        <section class="person">
+            <div class="container">
+                <div class="row" id="data-anime"></div>
+            </div>
+        </section>
+        <br id="text-title">
+        <h1 class="sub-text" id="about-us-title"> About Us</h1>
+        <section id="about-us">
+            <div id="about-us-content">
+                <div class="grid-item item1">
+                    <h3>Straw Hat Pirates</h3>
+                    <p>The Straw Hat Pirates, also known as the Mugiwara Pirates, <br>Straw Hat Crew or simply the Straw Hats, are an infamous and<br>
+                    powerful pirate crew that originated from the East Blue. <br>
+                    The "Straw Hats" are named after Luffy's signature <br>
+                    hat that was given to him by Red-Haired Shanks.</p>
+                </div>
+                <div class="grid-item item2">
+                    <h3>Bounty</h3>
+                    <div class="bounty">
+                        <p class="name">-Monkey D. Luffy-</p>
+                        <p class="value">B 3.000.000-</p>
+                    </div>
+                    <div class="bounty">
+                        <p class="name">-Roronoa Zoro-</p>
+                        <p class="value">B 320.000.000-</p>
+                    </div>
+                    <div class="bounty">
+                        <p class="name">-Nami-</p>
+                        <p class="value">B 66.000.000-</p>
+                    </div>
+                    <div class="bounty">
+                        <p class="name">-Sogeking-</p>
+                        <p class="value">B 200.000.000-</p>
+                    </div>
+                    <div class="bounty">
+                        <p class="name">-Vinsmoke Sanji-</p>
+                        <p class="value">B 330.000.00--</p>
+                    </div>
+                    <div class="bounty">
+                        <p class="name">-Tony Tony Chopper-</p>
+                        <p class="value">B 100-</p>
+                    </div>
+                    <div class="bounty">
+                        <p class="name">-Nico Robin-</p>
+                        <p class="value">B 130.000.000-</p>
+                    </div>
+                    <div class="bounty">
+                        <p class="name">-Cyborg Franky-</p>
+                        <p class="value">B 94.000.000-</p>
+                    </div>
+                    <div class="bounty">
+                        <p class="name">-Soul King Brook-</p>
+                        <p class="value">B 130.000.000-</p>
+                    </div>
+                    <div class="bounty">
+                        <p class="name">-Jinbe-</p>
+                        <p class="value">B 438.000.000-</p>
+                    </div>
+                </div>
+                <div class="grid-item item3">
+                   
+                </div>  
+            </div>
+        </section>
+        <section class="contact-us" id="contact-us">
+            <div id="contact-text">
+                <h3 class="sub-text"> Contact Us</h3>
+                <p>Need to get in touch with us ? Either fill out the form <br>
+                With your inquiry find the <a href="mailto:hdsvidi@gmail.com" target="_blank    "><strong>Pirates Mail</strong></a></p>
+            </div>
+            <div id="contact-form">
+                <form>
+                    <label for="name">Name*</label><br>
+                    <input id="name" type="text" name="name"><br>
+                    <label for="email">Email*</label><br>
+                    <input id="email" type="text" name="email"><br>
+                    <label for="message">What can we help with you ?</label><br>
+                    <textarea id="message-1" name="message-1"> </textarea><br>
+                    <input class="button" type="submit">
+                </form>
+            </div>
+            <div id="portofolio">
+                <img src="./assets/img/oda.webp">
+                <h4>Author : Eiichiro Oda</h4>
+                <a href="./portofolio.html" target="_blank">See Portofolio...</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><a href="https://" target="_blank" rel="noopener noreferrer">Grand Line - New World</a> ® 2022. All rights reserved</p>
+    </footer>
+    
+<script src="/assets/js/script.js"></script>
+</body>
+</html>
